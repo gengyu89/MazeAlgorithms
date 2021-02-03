@@ -11,7 +11,7 @@
 * SDL and PyGame
 * Tkinter
 
-**Keywords** procedural content generation, undirected graphs, minimum spanning tree, A-star search, recursive division
+**Keywords** undirected graphs, minimum spanning tree, recursive division, A-star search, procedural content generation
 
 ---
 
@@ -37,10 +37,10 @@ class Maze(object):
         return deepcopy(self.__walls)
 
     def InsertNode(self, node):
-        pass
+        pass  # some codes omitted here
 
     def SetVisited(self, vect):
-        pass
+        pass  # some codes omitted here
 
     def hasNode(self, vect):
         vects = [node.current for node in self.nodes]
@@ -53,13 +53,13 @@ class Maze(object):
         print("Node not found!")
 
     def SetConnected(self, vect_1, vect_2):
-        pass
+        pass  # some codes omitted here
 
     def SetApart(self, vect_1, vect_2):
-        pass
+        pass  # some codes omitted here
 
     def __str__(self):
-        pass
+        pass  # some codes omitted here
 
 class Node(object):
     """Data structure for representing each cell."""
@@ -86,10 +86,10 @@ class Node(object):
         return self.__neighbors  # deepcopy() removed
 
     def AddNeighbor(self, new):
-        pass
+        pass  # some codes omitted here
 
     def DelNeighbor(self, target):
-        pass
+        pass  # some codes omitted here
 
     def ListDisconnected(self):
         """Enumerates a node's unvisited neighbors."""
