@@ -11,7 +11,7 @@
 * SDL and PyGame
 * Tkinter
 
-**Keywords** undirected graphs, minimum spanning tree, recursive division, A-star search, procedural content generation
+**Keywords** procedural content generation, undirected graphs, minimum spanning tree, recursive division, A-star search
 
 ---
 
@@ -277,7 +277,7 @@ Similarly, given a maze of size MN, where M and N are the counts for cells horiz
 1. We need a new data structure called *Disjoint Set*.
 2. We need to create both cells and walls during the initialization.
 
-In Computer Science, the definition of new data structures is necessary for two situations:
+In Computer Science, definition of new data structures is necessary for two situations:
 1. Without defining data structures, the problem can still be solved but with a much poorer efficiency at running time.
 2. Without defining data structures, the problem cannot be solved.
 
@@ -305,16 +305,16 @@ class DisjointSet(object):
         return self.__sets
 
     def InsertSet(self, new):
-        pass
+        pass  # some codes omitted here
 
     def LocateSet(self, target):
-        pass
+        pass  # some codes omitted here
 
     def RemoveSet(self, value):
-        pass
+        pass  # some codes omitted here
 
     def AreSeparated(self, v_1, v_2):
-        pass
+        pass  # some codes omitted here
 
     def QuickFind(self, v_1, v_2):
         i, j = None, None
@@ -326,7 +326,7 @@ class DisjointSet(object):
         raise Exception("At least one element is not found!")
 
     def JoinSets(self, v_1, v_2):
-        pass
+        pass  # some codes omitted here
 
     def __len__(self):
         return len(self.__sets)
